@@ -1,0 +1,1372 @@
+{
+  "Home": {
+    "Hero": {
+      "start": "Build your own road",
+      "middle": "by finding",
+      "join": "Join Us",
+      "end": "your ideal Mentor"
+    },
+    "About": {
+      "HeroCard": {
+        "community": "Community",
+        "mentor": "Create Personalized Mentorship",
+        "assistance": "Requesting assistance from mentors to meet your unique needs",
+        "ai": "AI assistance to enhance your learning experience"
+      },
+      "sidepane": {
+        "title": "Who are Mentoro",
+        "description": "This platform designed to empower your personal and professional growth through tailored mentorship. Connect with a vibrant community, request specific guidance from experienced mentors, and create customized roadmaps to achieve your goals. With interactive quizzes and tasks personalized to your preferences, along with AI assistance to enhance your journey, Mentoro provides everything you need to learn, grow, and succeed."
+      }
+    },
+    "PopularMentors": {
+      "title": "Popular Mentors",
+      "reviews": "reviews",
+      "action": "Start your journey",
+      "rating": "5.0 (76 reviews)",
+      "spotsLeft": "{count} spots left",
+      "available": "available",
+      "mentorImageAlt": "Profile picture of {name}"
+    },
+    "CTA": {
+      "body": "Share your expertise and inspire others by becoming a mentor on Mentoro, where your guidance can shape the future of eager learners.",
+      "action": "Become A Mentor"
+    },
+    "CTA2": {
+      "body": "Request personalized guidance tailored to your specific task or field, and our mentors, individually or in groups, will accept and provide the support you need.",
+      "action": "Request"
+    },
+    "Reviews": {
+      "title": "Reviews",
+      "description": "Mentoro values transparency with mentor reviews, allowing you to see feedback from others before making your choice. These honest reviews help you find the right mentor, ensuring a better fit for your learning journey.",
+      "mock": {
+        "content": "I've been using this platform for a few months now, and I've been really happy with the results. The mentors are really helpful and the platform is really easy to use.",
+        "student": "Student",
+        "mentor": "Mentor"
+      }
+    },
+    "Chatbot": {
+      "title": "Need Help?",
+      "subtitle": "Talk To Mentoro's Chatbot"
+    },
+    "Community": {
+      "title": "Technologies moves At speed so Join Our",
+      "titleHighlight": "Community",
+      "description": "Mentoro's community is always active and up-to-date, offering fresh discussions and insights every day. Stay connected with the latest trends, ideas, and mentorship tailored to your evolving needs.",
+      "action": "Join Now",
+      "nodes": {
+        "shareKnowledge": "Share Knowledge",
+        "latestTech": "Latest Technologies Updates",
+        "profMentors": "50+ Professional Mentors"
+      }
+    }
+  },
+  "Navbar": {
+    "logo": "Mentoro",
+    "items": {
+      "home": "Home",
+      "mentors": "Mentors",
+      "contact": "Contact Us"
+    },
+    "actions": {
+      "logout": "Logout"
+    }
+  },
+  "Footer": {
+    "categories": "Categories",
+    "community": "Community",
+    "mentors": "Mentors",
+    "contact": "Contact Us",
+    "requestTask": "Request Task",
+    "links": "Links",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "tel": "Tel",
+    "email": "Email",
+    "help": "Help",
+    "chatbot": "Chatbot",
+    "responseHours": "Response hours: 24/7"
+  },
+  "Mentors": {
+    "title": "Categories",
+    "filter": "Filter",
+    "mentors": "Mentors",
+    "MentorCard": {
+      "subtitle": "10+ years experience as a Software Engineer",
+      "description": "Hello! I'm a software developer with 10 years of experience. I have worked for consultancy, startup, and enterprise product companies in differ...",
+      "price": "month LE"
+    },
+    "exploreMentors": "Explore Mentors",
+    "exploreMentorsDescription": "Find the perfect mentor for your needs. We have a wide range of mentors with different skills and specialties.",
+    "mentorDetails": "Mentor Details",
+    "about": "About",
+    "location": "Location",
+    "contacts": "Contacts",
+    "mentorPlans": "Mentor Plans",
+    "spotsLeft": "{count} spots left",
+    "errors": {
+      "mentorNotFound": "Mentor not found"
+    },
+    "all": "All",
+    "noMentorsFound": "No mentors found for this role.",
+    "reviews": "5.0 (76 reviews)",
+    "price": "850",
+    "robotAlt": "Robot assistant",
+    "mentorsFound": "mentors found",
+    "tryDifferentFilter": "Try adjusting your filters or browse all mentors.",
+    "mentorImageAlt": "Profile picture of {name}",
+    "rating": "reviews",
+    "experiencedMentor": "Experienced Mentor",
+    "for": "for",
+    "searchPlaceholder": "Search mentors by name, skill, location...",
+    "searchInfo": "Searching across names, skills, categories, locations, and descriptions",
+    "activeFilters": "Active filters",
+    "noSearchResults": "No mentors match your search",
+    "tryDifferentSearch": "Try different keywords or check your spelling.",
+    "clearSearch": "Clear search",
+    "clearFilter": "Clear filter"
+  },
+  "Auth": {
+    "login": {
+      "content_title": "Welcome back!",
+      "title": "Login",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember Me",
+      "submit": "Submit",
+      "forgotPassword": "Forgot Password?"
+    },
+    "register": {
+      "content_title": "Start your journey",
+      "title": "Register",
+      "or": "OR",
+      "pictureLabel": "Please upload your picture",
+      "pictureAlt": "Preview",
+      "pictureDescription": "Must be not more than 23MB. Supported formats: JPG, PNG, WebP",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "locationPlaceholder": "Location",
+      "aboutLabel": "Additional Info",
+      "aboutPlaceholder": "Tell us a little bit about yourself (optional)",
+      "linkedInPlaceholder": "LinkedIn",
+      "githubPlaceholder": "Github",
+      "accountBankPlaceholder": "Account Bank",
+      "jobTitlePlaceholder": "Job Title",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "Select a category",
+      "cvLabel": "Upload your CV",
+      "cvDescription": "Must be not more than 23MB. Supported formats: PDF",
+      "videoLabel": "Upload Video",
+      "videoDescription": "Please upload your 5-minute video introducing yourself, explaining your mentoring approach, outlining your overall plan, and how you'll create personalized roadmaps for mentees.",
+      "acceptTerms": "I agree to the Terms of Service",
+      "forgotPassword": "Forgot Password?",
+      "submit": "Submit",
+      "becomeMentor": "Become a Mentor",
+      "becomeMember": "Become a Member",
+      "rememberMe": "Remember Me",
+      "email": "Email",
+      "password": "Password",
+      "errors": {
+        "emailExists": "This email already has a request/account associated with it",
+        "registerFailed": "Something went wrong"
+      },
+      "success": {
+        "registerSuccess": "Account created successfully",
+        "mentorRequestSuccess": "Your request has been sent to the admin"
+      }
+    }
+  },
+  "NotFound": {
+    "title": "This page doesn't exist",
+    "goHome": "Go Back to Home"
+  },
+  "Layout": {
+    "title": "Mentoro | Build your own road",
+    "description": "Build your own road by finding your ideal mentor"
+  },
+  "Profile": {
+    "loading": "Loading profile...",
+    "error": "Failed to load profile. Please try again.",
+    "noUserData": "No user data available.",
+    "title": "Student Profile",
+    "description": "View and edit your profile",
+    "ProfileInfo": {
+      "sendMessage": "Send a message",
+      "reviews": "Reviews"
+    },
+    "ProfileAbout": {
+      "title": "About Me",
+      "sendMessage": "Send a message"
+    },
+    "EditProfileDialog": {
+      "trigger": "Edit Profile",
+      "title": "Edit Profile",
+      "description": "Make changes to your profile here. You can change your name, profile picture and about section.",
+      "save": "Save changes"
+    },
+    "PlanCard": {
+      "editButton": "Edit Plan",
+      "deleteButton": "Delete",
+      "deleteConfirmTitle": "Are you sure?",
+      "deleteConfirmDescription": "This action cannot be undone. This will permanently delete your plan and remove all associated data.",
+      "cancelButton": "Cancel",
+      "deletingButton": "Deleting...",
+      "planSuffix": "Plan",
+      "durationLabel": "Duration",
+      "priceLabel": "Price"
+    },
+    "Dashboard": {
+      "title": "Monthly Activity - {month}",
+      "stats": "{percentage}% ({hours} hrs)"
+    },
+    "BookACall": {
+      "title": "Set Your Availability",
+      "description": "Add time slots for mentees to book intro calls.",
+      "addButton": "Add Time Slot",
+      "emptyState": "No time slots added yet.",
+      "days": {
+        "Sun": "Sun",
+        "Mon": "Mon",
+        "Tue": "Tue",
+        "Wed": "Wed",
+        "Thu": "Thu",
+        "Fri": "Fri",
+        "Sat": "Sat"
+      },
+      "timePlaceholder": "e.g., 10:00PM - 12:00PM"
+    },
+    "Skills": {
+      "title": "Skills",
+      "addSkill": "Add a skill"
+    },
+    "Plans": {
+      "title": "Plans",
+      "Starter": {
+        "name": "Starter",
+        "price": "/Month",
+        "description": "Unleash the power of Automation.",
+        "perks": {
+          "freeChat": "Free Chat"
+        }
+      },
+      "Professional": {
+        "name": "Professional",
+        "price": "/Month",
+        "description": "Automation + Enterprise grade features",
+        "perks": {
+          "freeChat": "Free Chat",
+          "freeSessions": "3 Free Sessions",
+          "roadmap": "Roadmap",
+          "test": "1 Test"
+        }
+      },
+      "PlanCard": {
+        "editButton": "Edit Plan",
+        "deleteButton": "Delete",
+        "deleteConfirmTitle": "Are you sure?",
+        "deleteConfirmDescription": "This action cannot be undone. This will permanently delete your plan and remove all associated data.",
+        "cancelButton": "Cancel",
+        "deletingButton": "Deleting...",
+        "planSuffix": "Plan",
+        "durationLabel": "Duration",
+        "priceLabel": "Price"
+      },
+      "PlanPage": {
+        "emptyStateTitle": "No plans yet",
+        "emptyStateDescription": "Get started by creating your first mentorship plan to help guide your mentees.",
+        "createUpdateButton": "Create Plan",
+        "heading": "Plans",
+        "subtitle": "Create and manage your mentorship plans",
+        "totalPlans": "Total Plans",
+        "totalPlansDescription": "Active mentorship plans",
+        "planTypes": "Plan Types",
+        "planTypesDescription": "Different plan types",
+        "avgPrice": "Avg. Price",
+        "avgPriceDescription": "Average plan price",
+        "errorTitle": "Error loading plans",
+        "errorDescription": "There was an error loading your plans. Please try again."
+      }
+    },
+    "SendMessageForm": {
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Submit",
+      "errors": {
+        "subjectRequired": "Subject is required.",
+        "messageRequired": "Message is required"
+      }
+    },
+    "UpdatePictureForm": {
+      "label": "Please upload your picture",
+      "description": "Must be not more than 23MB. Supported formats: JPG, PNG, WebP",
+      "submit": "Update",
+      "errors": {
+        "fileRequired": "Picture must be a file",
+        "imageRequired": "Picture must be an image",
+        "maxSize": "Max file size is 23MB.",
+        "format": "Only .jpg, .jpeg, .png and .webp formats are supported."
+      }
+    },
+    "Location": {
+      "title": "Location"
+    },
+    "Connect": {
+      "title": "Connect",
+      "linkedin": "LinkedIn",
+      "gmail": "Gmail",
+      "github": "Github"
+    }
+  },
+  "Plans": {
+    "title": "Plans",
+    "Starter": {
+      "name": "Starter",
+      "price": "/Month",
+      "description": "Unleash the power of Automation.",
+      "perks": {
+        "freeChat": "Free Chat"
+      }
+    },
+    "Professional": {
+      "name": "Professional",
+      "price": "/Month",
+      "description": "Automation + Enterprise grade features",
+      "perks": {
+        "freeChat": "Free Chat",
+        "freeSessions": "3 Free Sessions",
+        "roadmap": "Roadmap",
+        "test": "1 Test"
+      }
+    },
+    "PlanCard": {
+      "editButton": "Edit Plan",
+      "deleteButton": "Delete",
+      "deleteConfirmTitle": "Are you sure?",
+      "deleteConfirmDescription": "This action cannot be undone. This will permanently delete your plan and remove all associated data.",
+      "cancelButton": "Cancel",
+      "deletingButton": "Deleting...",
+      "planSuffix": "Plan",
+      "durationLabel": "Duration",
+      "priceLabel": "Price"
+    },
+    "PlanPage": {
+      "emptyStateTitle": "No plans yet",
+      "emptyStateDescription": "Get started by creating your first mentorship plan to help guide your mentees.",
+      "createUpdateButton": "Create Plan",
+      "heading": "Plans",
+      "subtitle": "Create and manage your mentorship plans",
+      "totalPlans": "Total Plans",
+      "totalPlansDescription": "Active mentorship plans",
+      "planTypes": "Plan Types",
+      "planTypesDescription": "Different plan types",
+      "avgPrice": "Avg. Price",
+      "avgPriceDescription": "Average plan price",
+      "errorTitle": "Error loading plans",
+      "errorDescription": "There was an error loading your plans. Please try again."
+    },
+    "CreatePlan": {
+      "heading": "Create Plan"
+    },
+    "PlanForm": {
+      "steps": {
+        "planType": {
+          "title": "Plan Type",
+          "description": "Choose the type of plan you want to create"
+        },
+        "description": {
+          "title": "Description",
+          "description": "Provide a detailed description of your plan"
+        },
+        "price": {
+          "title": "Price",
+          "description": "Set the price for your plan"
+        },
+        "duration": {
+          "title": "Duration",
+          "description": "Set the duration of your plan"
+        },
+        "resources": {
+          "title": "Resources",
+          "description": "Add resources and stages to your roadmap"
+        }
+      },
+      "errorToast": "Failed to create plan. Please try again.",
+      "successToast": "Plan created successfully!"
+    },
+    "PlanTypeField": {
+      "label": "Plan Type",
+      "placeholder": "Select a plan type",
+      "customized": "Customized",
+      "roadmap": "Roadmap",
+      "guidance": "Guidance"
+    },
+    "PlanDescriptionField": {
+      "label": "Description",
+      "placeholder": "Enter a detailed description of your plan..."
+    },
+    "PlanDurationFields": {
+      "durationTypeLabel": "Duration Type",
+      "durationTypePlaceholder": "Select duration type",
+      "durationPlaceholder": "Enter duration",
+      "durationDescription": "Specify how long your plan will last"
+    },
+    "PlanPriceField": {
+      "placeholder": "Enter price in LE",
+      "description": "Set the price for your mentorship plan (min: 100 LE, max: 1000 LE)"
+    },
+    "FormFooter": {
+      "backButton": "Back",
+      "nextButton": "Next",
+      "submitButton": "Create Plan"
+    },
+    "price_20": "20LE",
+    "price_200": "200LE",
+    "per_month": "/Month",
+    "starter_plan": "Starter",
+    "professional_plan": "Professional",
+    "starter_description": "Unleash the power of Automation.",
+    "professional_description": "Automation plus enterprise-grade features.",
+    "free_chat": "Free Chat",
+    "free_session": "3 Free Session",
+    "roadmap": "Roadmap",
+    "test": "1 Test"
+  },
+  "Resources": {
+    "ResourceCards": {
+      "searchPlaceholder": "Search courses...",
+      "createButton": "Create Resource",
+      "noResources": "No resources found",
+      "noResourcesSubtext": "Try adjusting your search or create a new resource!",
+      "descriptionLabel": "Description"
+    },
+    "Courses": {
+      "heading": "Your guidance transforms effort into excellence 🧑🏻‍🎓"
+    },
+    "CreateResourceDialog": {
+      "addResource": "Add a resource to the roadmap",
+      "titleLabel": "Title",
+      "titlePlaceholder": "e.g., How to build a website",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "e.g., Learn how to build a website from scratch",
+      "linkLabel": "Link",
+      "linkPlaceholder": "e.g., https://example.com",
+      "typeLabel": "Type",
+      "typePlaceholder": "Select a type",
+      "submit": "Submit"
+    },
+    "Roadmap": {
+      "tabs": {
+        "overview": "Overview",
+        "resources": "Resources",
+        "quizzes": "Quizzes"
+      },
+      "createButton": "Create Roadmap"
+    },
+    "AddResourceForm": {
+      "titlePlaceholder": "Enter resource title",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter resource description",
+      "resourceFileLabel": "Resource File",
+      "linksSection": "Links",
+      "linkPlaceholder": "Link #{index}",
+      "addLinkButton": "Add Link",
+      "submitButton": "Submit",
+      "errorToast": "Failed to create resource. Please try again.",
+      "successToast": "Resource created successfully!",
+      "validation": {
+        "titleRequired": "Title is required",
+        "descriptionRequired": "Description is required",
+        "fileRequired": "File is required",
+        "linkRequired": "Link is required",
+        "invalidLink": "Invalid link"
+      }
+    },
+    "AddCourse": {
+      "heading": "Create a New Resource"
+    },
+    "Course": {
+      "editButton": "Edit",
+      "descriptionSection": "Description",
+      "filesSection": "Files",
+      "linksSection": "Links",
+      "downloadLink": "Download {filename}",
+      "resourceLabel": "Resource",
+      "noFiles": "No files available",
+      "noLinks": "No links available"
+    },
+    "EditResourceForm": {
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter resource title",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter resource description",
+      "resourceFileLabel": "Resource File",
+      "loadingFiles": "Loading files...",
+      "linksSection": "Links",
+      "linkPlaceholder": "Link #{index}",
+      "addLinkButton": "Add Link",
+      "submitButton": "Save Changes",
+      "errorToast": "Failed to edit resource. Please try again.",
+      "successToast": "Resource edited successfully!",
+      "validation": {
+        "titleRequired": "Title is required",
+        "descriptionRequired": "Description is required",
+        "fileRequired": "File is required",
+        "linkRequired": "Link is required",
+        "invalidLink": "Invalid link"
+      }
+    },
+    "EditResource": {
+      "heading": "Edit Resource"
+    },
+    "DeleteResourceButton": {
+      "deleteButton": "Delete",
+      "dialogTitle": "Are you sure?",
+      "dialogDescription": "This action cannot be undone. This will permanently delete the resource.",
+      "cancelButton": "Cancel",
+      "deleting": "Deleting...",
+      "deleteAction": "Delete"
+    }
+  },
+  "Quizzes": {
+    "NoQuizzes": {
+      "title": "No quizzes yet!",
+      "subtitle": "Create your first quiz and test your students' knowledge."
+    },
+    "QuizCard": {
+      "questions": "{count, plural, one {# question} other {# questions}}",
+      "minutes": "{count, plural, one {# minute} other {# minutes}}",
+      "attempts": "{count, plural, one {# attempt} other {# attempts}}",
+      "points": "{count, plural, one {# point} other {# points}}",
+      "takeQuiz": "Take Quiz"
+    },
+    "CreateQuizButton": {
+      "text": "Create Quiz"
+    },
+    "CreateQuizDialog": {
+      "title": "Create a new quiz",
+      "titleLabel": "Quiz Title",
+      "titlePlaceholder": "Enter quiz title",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter quiz description",
+      "timeLimitLabel": "Time Limit (in minutes)",
+      "numQuestionsLabel": "Number of Questions",
+      "passingScoreLabel": "Passing Score",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "DashboardLayout": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "sessions": "Sessions",
+      "mentees": "Mentees",
+      "myMentees": "My Mentees",
+      "requests": "Requests",
+      "settings": "Settings",
+      "plans": "Plans",
+      "resources": "Resources",
+      "earnings": "Earnings",
+      "paymentRequests": "Payment Requests",
+      "complaints": "Complaints"
+    }
+  },
+  "StudentPaymentRequests": {
+    "title": "Payment Requests",
+    "description": "View and manage your payment requests.",
+    "status": "Status",
+    "amount": "Amount",
+    "date": "Date",
+    "no_requests": "No payment requests found.",
+    "noRequests": "No payment requests found.",
+    "noRequestsHint": "When a mentor accepts your request, it will appear here."
+  },
+  "StudentDashboard": {
+    "heading": "Find your mentor",
+    "description": "Browse our network of experienced mentors and find the right one for you.",
+    "spots_left": "{count, plural, one {# spot left} other {# spots left}}",
+    "loading": "Loading...",
+    "roadmaps": "Roadmaps"
+  },
+  "StudentRequests": {
+    "heading": "Student Requests",
+    "description": "Review and respond to requests from students to be their mentor.",
+    "no_requests": "You have no pending student requests at the moment."
+  },
+  "AdminLayout": {
+    "dashboard": "Dashboard",
+    "mentor_requests": "Mentor Requests",
+    "payment_requests": "Payment Requests",
+    "complaints": "Complaints"
+  },
+  "AdminPage": {
+    "heading": "Admin Dashboard",
+    "description": "Manage and oversee platform operations",
+    "loading": "Loading...",
+    "payment_requests_card_title": "Payment Requests",
+    "payment_requests_pending": "{count, plural, one {# pending} other {# pending}}",
+    "mentor_requests_card_title": "Mentor Requests",
+    "mentor_requests_description": "Applications to review",
+    "total_requested_amount_card_title": "Total Requested Amount",
+    "total_requested_amount_description": "In payment requests",
+    "system_activity_card_title": "System Activity",
+    "system_activity_description": "Active items requiring attention",
+    "quick_actions_title": "Quick Actions",
+    "review_payment_requests_button": "Review Payment Requests",
+    "review_mentor_applications_button": "Review Mentor Applications",
+    "recent_payment_requests_title": "Recent Payment Requests",
+    "no_payment_requests": "No payment requests available",
+    "view_all_payment_requests_button": "View All Payment Requests",
+    "recent_mentor_applications_title": "Recent Mentor Applications",
+    "no_mentor_applications": "No mentor applications available",
+    "view_all_mentor_applications_button": "View All Mentor Applications",
+    "pending_status": "Pending",
+    "view_button": "View",
+    "system_summary_title": "System Summary",
+    "pending_actions_label": "Pending Actions",
+    "pending_actions_description": "Items requiring attention",
+    "payment_volume_label": "Payment Volume",
+    "payment_volume_description": "Total requested amount",
+    "new_mentors_label": "New Mentors",
+    "new_mentors_description": "Applications received"
+  },
+  "MentorRequestsPage": {
+    "heading": "Mentor Requests",
+    "description": "Review and manage mentor applications",
+    "pending_label": "Pending",
+    "no_requests_title": "No Mentor Requests",
+    "no_requests_description": "All mentor applications will appear here when submitted.",
+    "loading": "Loading..."
+  },
+  "PaymentRequestsPage": {
+    "heading": "Payment Requests",
+    "description": "Review and manage payment requests from users",
+    "loading": "Loading...",
+    "loading_archived": "Loading archived requests...",
+    "pending_label": "Pending",
+    "total_label": "Total",
+    "archived_label": "Archived",
+    "current_tab": "Current Requests",
+    "archived_tab": "Archived Requests",
+    "no_requests_title": "No Payment Requests",
+    "no_requests_description": "All payment requests will appear here when submitted.",
+    "no_archived_requests_title": "No Archived Requests",
+    "no_archived_requests_description": "Processed payment requests will appear here."
+  },
+  "MentorRequestCard": {
+    "job_title_label": "Job Title:",
+    "category_label": "Category:",
+    "review_application": "Click to review application"
+  },
+  "MentorRequestsView": {
+    "cards_view_button": "Cards",
+    "table_view_button": "Table"
+  },
+  "MentorRequestsTable": {
+    "table_header_applicant": "Applicant",
+    "table_header_job_title": "Job Title",
+    "table_header_category": "Category",
+    "table_header_action": "Action",
+    "review_button": "Review"
+  },
+  "PaymentRequestsTable": {
+    "title": "{count, plural, one {# Payment Request} other {# Payment Requests}}",
+    "filter_all": "All",
+    "filter_pending": "Pending",
+    "filter_accepted": "Accepted",
+    "filter_rejected": "Rejected",
+    "table_header_user": "User",
+    "table_header_mentor": "Mentor",
+    "table_header_plan": "Plan",
+    "table_header_amount": "Amount",
+    "table_header_status": "Status",
+    "table_header_request_date": "Request Date",
+    "table_header_actions": "Actions",
+    "view_button": "View",
+    "no_requests": "No payment requests found.",
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "unknown_plan": "Unknown Plan"
+  },
+  "PaymentRequestDetails": {
+    "heading": "Payment Request #{id}",
+    "description": "Review and take action on this payment request",
+    "accept_button": "Accept",
+    "accept_dialog_title": "Accept Payment Request",
+    "accept_dialog_description": "Are you sure you want to accept this payment request? This action cannot be undone.",
+    "accept_success_toast": "Payment request accepted successfully",
+    "accept_error_toast": "Failed to accept payment request",
+    "payment_details_title": "Payment Details",
+    "amount_label": "Amount",
+    "status_label": "Status",
+    "plan_label": "Plan",
+    "request_date_label": "Request Date",
+    "user_info_title": "User Information",
+    "user_name_label": "Name",
+    "mentor_label": "Mentor",
+    "bank_info_title": "Banking Information",
+    "sender_account_label": "Sender Account",
+    "recipient_account_label": "Recipient Account",
+    "payment_proof_title": "Payment Proof",
+    "notes_title": "Notes",
+    "no_notes": "No additional notes provided",
+    "cancel_button": "Cancel",
+    "accepting_button": "Accepting...",
+    "accept_final_button": "Accept",
+    "timeline_title": "Timeline",
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "unknown_plan": "Unknown Plan",
+    "id_label": "ID:",
+    "payment_proof_alt": "Payment Proof"
+  },
+  "RejectForm": {
+    "reject_button": "Reject",
+    "dialog_title": "Reject Payment Request",
+    "dialog_description": "Please provide a reason for rejecting this payment request. This cannot be undone.",
+    "reason_label": "Rejection Reason",
+    "reason_placeholder": "Enter the reason for rejection...",
+    "reason_validation": "Rejection reason must be at least 10 characters long",
+    "cancel_button": "Cancel",
+    "rejecting_button": "Rejecting...",
+    "reject_final_button": "Reject Request",
+    "success_toast": "Payment request rejected successfully",
+    "error_toast": "Failed to reject payment request"
+  },
+  "AdminComplaints": {
+    "errorTitle": "Error Loading Complaints",
+    "errorDescription": "Failed to load complaints. Please try again later.",
+    "title": "Complaints Management",
+    "description": "Manage and respond to user complaints",
+    "active": "Active Complaints",
+    "archived": "Archived Complaints",
+    "activeDescription": "Review and take action on pending user complaints",
+    "archivedDescription": "Previously resolved or rejected complaints",
+    "table": {
+      "no_complaints_title": "No Complaints",
+      "no_complaints_description": "There are currently no complaints to review.",
+      "header_id": "ID",
+      "header_user": "User",
+      "header_status": "Status",
+      "header_content": "Content",
+      "header_date": "Date",
+      "header_actions": "Actions",
+      "user_not_available": "N/A"
+    },
+    "actions": {
+      "accept_button": "Accept",
+      "reject_button": "Reject",
+      "delete_button": "Delete",
+      "reject_dialog_title": "Reject Complaint",
+      "reject_dialog_description": "Please provide a reason for rejecting this complaint. This information will be recorded for audit purposes.",
+      "rejection_notes_label": "Rejection Notes",
+      "rejection_notes_placeholder": "Enter your reason for rejecting this complaint...",
+      "rejection_notes_required": "Notes are required for rejection",
+      "cancel_button": "Cancel",
+      "reject_confirm_button": "Reject Complaint",
+      "delete_confirm_title": "Are you absolutely sure?",
+      "delete_confirm_description": "This action cannot be undone. This will permanently delete the complaint from the system.",
+      "delete_confirm_button": "Delete"
+    },
+    "status": {
+      "pending": "Pending",
+      "resolved": "Resolved",
+      "rejected": "Rejected",
+      "in_progress": "In Progress"
+    }
+  },
+  "MentorRequestDetails": {
+    "acceptSuccess": "Mentor request accepted successfully!",
+    "acceptError": "Failed to accept mentor request",
+    "rejectSuccess": "Mentor request rejected",
+    "rejectError": "Failed to reject mentor request",
+    "about": "About",
+    "socialProfiles": "Social Profiles",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "documents": "Documents & Media",
+    "cv": "CV/Resume",
+    "viewDocument": "View document",
+    "introVideo": "Introduction Video",
+    "watchVideo": "Watch video",
+    "bankAccount": "Bank Account",
+    "accept": "Accept",
+    "reject": "Reject",
+    "acceptConfirmTitle": "Are you sure you want to accept this mentor request?",
+    "acceptConfirmDescription": "The user will be notified and will be able to log in as a mentor.",
+    "rejectConfirmTitle": "Are you sure you want to reject this mentor request?",
+    "rejectConfirmDescription": "This will permanently delete the request, and they will need to reapply if they want to become a mentor.",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "actions": "Actions"
+  },
+  "common": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "chat": "Chat",
+    "resources": "Resources",
+    "toggleSidebar": "Toggle Sidebar"
+  },
+  "studentDashboard": {
+    "yourMentors": "Your Mentors",
+    "progress": "Progress",
+    "studentTask": "Student Task",
+    "feedback": "Feedback",
+    "paymentRequests": "Payment Requests",
+    "complaints": "Complaints",
+    "heading": "Find your next mentor",
+    "description": "Get guidance from the best mentors in the industry",
+    "spots_left": "{count, plural, one {# spot left} other {# spots left}}",
+    "loading": "Loading...",
+    "roadmaps": "Roadmaps"
+  },
+  "mentorDashboard": {
+    "tasks": "Tasks",
+    "studentRequests": "Student Requests",
+    "allStudents": "All Students",
+    "plan": "Plan",
+    "complaints": "Complaints"
+  },
+  "MentorDashboard": {
+    "title": "Mentor Dashboard",
+    "description": "Track your mentoring impact, monitor individual student progress, their challenges, and your weekly activity with comprehensive insights.",
+    "totalStudents": "Total Students",
+    "activeMentoring": "Active mentoring relationships",
+    "strugglingStudents": "Struggling Students",
+    "studentsBehind": "Students behind schedule",
+    "averageProgress": "Average Progress",
+    "acrossAllStudents": "Across all students",
+    "overdueHours": "Overdue Hours",
+    "totalTimeBehind": "Total time behind schedule",
+    "studentProgressOverview": "Student Progress Overview",
+    "currentProgressPercentage": "Current progress percentage for each student",
+    "currentStageDistribution": "Current Stage Distribution",
+    "whereStudentsAre": "Where students are in their learning journey",
+    "timeSpentVsExpected": "Time Spent vs Expected Duration",
+    "analysisOfStudentsBehind": "Analysis of students who are behind schedule",
+    "studentProgressDetails": "Student Progress Details",
+    "detailedView": "Detailed view of all student progress and current stages",
+    "searchStudents": "Search students...",
+    "allStudents": "All Students",
+    "struggling": "Struggling",
+    "onTrack": "On Track",
+    "strugglingStudentsDropdown": "Struggling Students",
+    "onTrackStudentsDropdown": "On Track Students",
+    "student": "Student",
+    "currentStage": "Current Stage",
+    "progress": "Progress",
+    "status": "Status",
+    "nextStage": "Next Stage",
+    "behindSchedule": "Behind Schedule",
+    "onTrackBadge": "On Track",
+    "completed": "Completed",
+    "viewDetails": "View Details",
+    "sendMessage": "Send Message",
+    "scheduleMeeting": "Schedule Meeting",
+    "noStudentsFound": "No students found matching your criteria.",
+    "unknownPlan": "Unknown Plan",
+    "loading": "Loading dashboard...",
+    "errorTitle": "Error Loading Dashboard",
+    "errorMessage": "Failed to load dashboard data. Please try refreshing the page.",
+    "noProgressData": "No student progress data available",
+    "noStageData": "No stage distribution data available",
+    "noStruggleData": "No struggling students data available"
+  },
+  "YourMentors": {
+    "heading": "Your Mentors",
+    "description": "Connect with your assigned mentors and track your learning journey.",
+    "no_mentors": "No mentors assigned yet.",
+    "no_mentors_description": "Your assigned mentors will appear here once you've been accepted into a mentorship program.",
+    "loading": "Loading your mentors...",
+    "error": "Failed to load your mentors. Please try again.",
+    "plan_label": "Plan:",
+    "goal_label": "Your Goal:",
+    "status_label": "Status:",
+    "start_mentorship": "Start Mentorship",
+    "view_profile": "View Profile",
+    "send_message": "Send Message",
+    "active": "Active",
+    "pending": "Pending",
+    "contact_mentor": "Contact Mentor",
+    "mentor_profile": "Mentor Profile",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email",
+    "location": "Location",
+    "category": "Category",
+    "job_title": "Job Title"
+  },
+  "Progress": {
+    "badgeAlt": "Badge for {name}",
+    "studentAlt": "Picture of {name}",
+    "points": "Points",
+    "loading": "Loading progress...",
+    "backButtonAria": "Go back to dashboard",
+    "title": "Your Progress",
+    "recentBadges": "Recent Badges",
+    "prevBadgesAria": "Previous badges",
+    "nextBadgesAria": "Next badges",
+    "leaderboard": "Leaderboard",
+    "rank": "Rank",
+    "student": "Student",
+    "viewAll": "View All",
+    "badges": {
+      "Microsoft_NET": "Microsoft .NET",
+      "Plan Register": "Plan Register",
+      "Skill Earned": "Skill Earned",
+      "NextJS": "Next.js"
+    }
+  },
+  "StudentComplaints": {
+    "title": "Complaints 💢",
+    "description": "Here you can send any complaints you have about the platform or the service.",
+    "yourComplaintsTab": "Your Complaints",
+    "submitComplaintTab": "Submit a Complaint",
+    "yourComplaintsTitle": "Your Complaints",
+    "yourComplaintsDescription": "Here you can view all your complaints.",
+    "submitComplaintTitle": "Submit Complaint",
+    "submitComplaintDescription": "Here you can submit a complaint about the platform or the service.",
+    "errorTitle": "Error",
+    "errorDescription": "Failed to load complaints.",
+    "emptyTitle": "No Complaints",
+    "emptyDescription": "You have not submitted any complaints yet.",
+    "complaintLabel": "Complaint",
+    "complaintPlaceholder": "Enter your complaint here...",
+    "complaintRequired": "Complaint is required.",
+    "submitButton": "Submit Complaint",
+    "submitSuccess": "Complaint submitted successfully",
+    "submitError": "Failed to submit complaint",
+    "complaintTitle": "Complaint #{id}",
+    "filedBy": "Filed by",
+    "userId": "User ID: {id}",
+    "complaintDetails": "Complaint Details",
+    "notes": "Notes",
+    "rejectionReason": "Reason for Rejection",
+    "status": {
+      "pending": "Pending",
+      "resolved": "Resolved",
+      "rejected": "Rejected",
+      "in_progress": "In Progress"
+    }
+  },
+  "ResourcesPage": {
+    "heading": "Resources",
+    "description": "Here you can find all the resources provided by your mentors.",
+    "no_resources": "No Resources Found",
+    "no_resources_description": "Your mentors have not provided any resources yet. Please check back later.",
+    "online_resources": "Online Resources",
+    "files": "Files",
+    "no_resources_item": "No materials available for this resource.",
+    "total_resources": "Total Resources",
+    "online_links": "Online Links",
+    "files_available": "Files Available",
+    "id": "ID: {id}",
+    "loading": "Loading..."
+  },
+  "Chat": {
+    "ChatPage": {
+      "heading": "Your Conversations",
+      "subtext": "Manage and engage in conversations with your assigned mentors.",
+      "subtext1": "Manage and engage in conversations with your assigned mentors."
+    },
+    "Chat": {
+      "connecting": "Connecting to chat...",
+      "connectionError": "Connection Error",
+      "errorPrefix": "An error occurred:",
+      "defaultHeading": "Chat",
+      "messages": "messages",
+      "connectingBadge": "Connecting",
+      "connectedBadge": "Connected",
+      "selectChatHeading": "Select a Chat",
+      "selectChatDescription": "Choose a conversation from the sidebar to start messaging."
+    },
+    "ChatList": {
+      "loading": "Loading messages...",
+      "noMessages": "No messages yet!",
+      "startConversation": "Be the first to send a message and start the conversation."
+    },
+    "ChatInputBox": {
+      "emptyMessageError": "Message cannot be empty",
+      "messagePlaceholder": "Type your message here...",
+      "helperText": "Press Enter to send, Shift + Enter for a new line."
+    },
+    "ChatSidebar": {
+      "heading": "Mentors",
+      "mentors": "Mentors",
+      "searchPlaceholder": "Search mentors...",
+      "new": "New",
+      "plan": "Plan:",
+      "active": "Active",
+      "noMentorsHeading": "No Mentors Assigned",
+      "noMentorsDescription": "You haven't been assigned any mentors yet. Please check back later."
+    }
+  },
+  "StudentTasksList": {
+    "Loading": "Loading...",
+    "heading": "My Tasks",
+    "description": "Here is a list of your tasks.",
+    "mentor_label": "Mentor: {name}",
+    "submitted_label": "Submitted {timeAgo}",
+    "view_details_button": "View Details",
+    "no_tasks": "No Tasks Yet",
+    "no_tasks_description": "You have not been assigned any tasks yet. When you are, they will show up here.",
+    "total_tasks_label": "Total Tasks",
+    "average_score_label": "Average Score",
+    "average_score_value": "{score}%",
+    "excellent_tasks_label": "Excellent Tasks",
+    "completed_tasks_heading": "Completed Tasks",
+    "tasks_count": "{count, plural, one {# task} other {# tasks}}"
+  },
+  "StudentTaskPage": {
+    "task_not_found": "Task not found",
+    "loading": "Loading...",
+    "task_label": "Task #{taskId}",
+    "multiple_choice": "Multiple Choice",
+    "submission": "Submission",
+    "completed": "Completed",
+    "in_progress": "In Progress",
+    "progress_label": "Progress",
+    "progress_value": "{percentage}%",
+    "questions_label": "Questions",
+    "total_score_label": "Total Score",
+    "status_label": "Status",
+    "status_done": "Done",
+    "status_pending": "Pending",
+    "questions_heading": "Questions",
+    "no_questions": "No Questions Found",
+    "no_questions_description": "There are no questions available for this task.",
+    "QuestionCard": {
+      "question_title": "Question {index}",
+      "score": "{score} Points",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "submission_placeholder": "Write your answer here...",
+      "correct_answer_label": "Correct Answer:"
+    },
+    "PlansComponent": {
+      "price_20": "20LE",
+      "price_200": "200LE",
+      "per_month": "/Month",
+      "starter_plan": "Starter",
+      "professional_plan": "Professional",
+      "starter_description": "Unleash the power of Automation.",
+      "professional_description": "Automation plus enterprise-grade features.",
+      "free_chat": "Free Chat",
+      "free_session": "3 Free Session",
+      "roadmap": "Roadmap",
+      "test": "1 Test"
+    }
+  },
+  "TaskForm": {
+    "success_mcq_toast": "MCQ task submitted successfully",
+    "error_toast": "Failed to submit task",
+    "success_submission_toast": "Submission task submitted successfully",
+    "question_label": "Question {index}: {question}",
+    "mcq_answer_required": "Please select an answer.",
+    "submission_answer_required": "Please provide an answer.",
+    "submitting_button": "Submitting...",
+    "submit_mcq_button": "Submit Answers",
+    "submit_submission_button": "Submit Answer"
+  },
+  "PlansComponent": {
+    "price_20": "20LE",
+    "price_200": "200LE",
+    "per_month": "/Month",
+    "starter_plan": "Starter",
+    "professional_plan": "Professional",
+    "starter_description": "Unleash the power of Automation.",
+    "professional_description": "Automation plus enterprise-grade features.",
+    "free_chat": "Free Chat",
+    "free_session": "3 Free Session",
+    "roadmap": "Roadmap",
+    "test": "1 Test"
+  },
+  "PaymentRequestCard": {
+    "status": {
+      "Accepted": "Accepted",
+      "pending": "Pending"
+    },
+    "plan_title": "{title}",
+    "price_label": "{price} EGP",
+    "duration_label": "Duration: {duration}",
+    "goal_label": "Your Goal",
+    "location_label": "Location: {location}",
+    "view_details_button": "View Details",
+    "pay_now_button": "Pay Now",
+    "dialog_title": "Confirm Payment",
+    "dialog_description": "Please confirm the payment to {account}.",
+    "pay_with_paypal": "Pay with PayPal",
+    "or_separator": "OR",
+    "sender_account_label": "Sender Account",
+    "sender_account_placeholder": "Enter your account name (e.g., username@instapay)",
+    "sender_account_required": "Sender account is required.",
+    "transaction_image_label": "Transaction Screenshot",
+    "transaction_image_required": "Please upload a transaction screenshot.",
+    "transaction_image_max": "You can only upload one image.",
+    "processing_button": "Processing...",
+    "confirm_payment_button": "Confirm Payment",
+    "auth_error_toast": "You must be logged in to make a payment.",
+    "image_error_toast": "Please upload a transaction image.",
+    "success_toast": "Payment confirmation sent to {mentorName}.",
+    "error_toast": "An error occurred. Please try again."
+  },
+  "BackButton": {
+    "goBack": "Go Back"
+  },
+  "Dashboard": {
+    "title": "Requests",
+    "description": "Here are the requests from your students.",
+    "noRequests": "No requests found.",
+    "noRequestsHint": "When a student sends you a request, it will appear here."
+  },
+  "MentorPage": {
+    "spots_left": "{count, plural, one {# spot left} other {# spots left}}",
+    "about_me": "About Me",
+    "mentorship_plans": "Mentorship Plans",
+    "mentorship_plans_description": "Choose the plan that best fits your learning goals",
+    "price_label": "${price}",
+    "duration_label": "Duration: {duration}",
+    "Roadmap": "Roadmap",
+    "Customized": "Customized",
+    "Custom": "Custom",
+    "Consultant": "Consultant",
+    "plan": "Plan",
+    "reviews": "4.9 (127 reviews)",
+    "contact_information": "Contact Information",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "whats_included": "What's included:",
+    "roadmap_feature_1": "Personalized learning roadmap",
+    "roadmap_feature_2": "Weekly progress check-ins",
+    "roadmap_feature_3": "Resource recommendations",
+    "custom_feature_1": "Customized learning approach",
+    "custom_feature_2": "Flexible scheduling",
+    "custom_feature_3": "Direct mentor communication",
+    "consultant_feature_1": "1-on-1 consultation sessions",
+    "consultant_feature_2": "Career guidance and advice",
+    "consultant_feature_3": "Project reviews and feedback",
+    "subscribe_button": "Subscribe to this plan",
+    "no_plans_available": "No mentorship plans available at the moment."
+  },
+  "RequestDialog": {
+    "button": "Request Mentorship",
+    "title": "Request Mentorship",
+    "description": "Fill out the form below to send a mentorship request."
+  },
+  "RequestMentorForm": {
+    "goal_required": "Goal is required.",
+    "error_toast": "An error occurred. Please try again.",
+    "success_toast": "Request sent successfully!",
+    "plan_label": "Plan",
+    "plan_placeholder": "Select a plan",
+    "plan_options": {
+      "customized": "Customized",
+      "consultant": "Consultant",
+      "roadmap": "Roadmap"
+    },
+    "goal_label": "Goal",
+    "goal_placeholder": "What do you want to achieve?",
+    "submit_button": "Send Request"
+  },
+  "MentorProfile": {
+    "title": "Mentor Profile",
+    "description": "View and manage your public profile.",
+    "noUserData": "No user data available.",
+    "Location": {
+      "title": "Location"
+    },
+    "Connect": {
+      "title": "Connect",
+      "linkedin": "LinkedIn",
+      "gmail": "Gmail",
+      "github": "Github"
+    },
+    "EditProfileDialog": {
+      "trigger": "Edit Profile",
+      "title": "Edit Profile",
+      "description": "Make changes to your profile here. You can update your personal details, social links, and skills.",
+      "save": "Save changes"
+    }
+  },
+  "Tasks": {
+    "heading": "Your Tasks",
+    "subheading": "Manage and create tasks for your students.",
+    "createTask": "Create Task",
+    "TaskCards": {
+      "noTasks": "No tasks found.",
+      "noTasksDescription": "Get started by creating a new task.",
+      "taskType": "Task Type"
+    },
+    "CreateTask": {
+      "heading": "Create a New Task"
+    },
+    "CreateTaskForm": {
+      "taskInfo": "Task Information",
+      "titlePlaceholder": "Enter task title",
+      "taskType": "Task Type",
+      "selectTaskType": "Select a task type",
+      "mcq": "Multiple Choice",
+      "submission": "Submission",
+      "questions": "Questions",
+      "addQuestion": "Add Question",
+      "submit": "Create Task",
+      "success": {
+        "taskCreated": "Task created successfully"
+      },
+      "errors": {
+        "createTaskFailed": "Failed to create task",
+        "createQuestionsFailed": "Failed to create questions",
+        "confirmTaskFailed": "Failed to confirm task"
+      },
+      "validation": {
+        "questionRequired": "Question is required",
+        "scoreRequired": "Score is required",
+        "answerRequired": "Answer is required",
+        "titleRequired": "Title is required"
+      }
+    },
+    "QuestionField": {
+      "question": "Question {number}",
+      "questionPlaceholder": "Enter the question",
+      "scorePlaceholder": "Score",
+      "options": "Options",
+      "addOption": "Add Option",
+      "answer": "Answer"
+    },
+    "OptionsField": {
+      "optionPlaceholder": "Option {number}",
+      "addOption": "Add Option"
+    },
+    "TaskDetails": {
+      "heading": "Task Details",
+      "editTask": "Edit Task",
+      "questions": "{count, plural, one {# question} other {# questions}}",
+      "totalScore": "Total Score: {score}",
+      "score": "Score"
+    },
+    "EditTask": {
+      "heading": "Edit Task"
+    },
+    "EditTaskForm": {
+      "saveTask": "Save Task",
+      "success": {
+        "mcqUpdate": "MCQ task updated successfully",
+        "submissionUpdate": "Submission task updated successfully"
+      },
+      "errors": {
+        "mcqUpdateFailed": "Failed to update MCQ task",
+        "submissionUpdateFailed": "Failed to update submission task",
+        "invalidTaskType": "Invalid task type"
+      }
+    }
+  },
+  "RequestCard": {
+    "plan_label": "Wants to enroll in {planTitle}",
+    "goal_label": "Student's Goal",
+    "accept_button": "Accept",
+    "reject_button": "Reject"
+  },
+  "AllStudents": {
+    "heading": "All Students",
+    "manage_connect": "Manage and connect with your students.",
+    "total_students": "Total Students: {count}",
+    "active_mentorships": "Active Mentorships",
+    "no_students_title": "No Students Yet",
+    "no_students_description": "When you have students, they will appear here.",
+    "active_badge": "Active",
+    "start_date": "Start Date",
+    "duration": "Duration",
+    "ongoing": "Ongoing",
+    "active_mentorship": "Active Mentorship",
+    "actions": "Actions",
+    "table": {
+      "student": "Student",
+      "plan": "Plan",
+      "startDate": "Start Date",
+      "actions": "Actions"
+    },
+    "AssignResourcesDialog": {
+      "button": "Assign Resources",
+      "title": "Assign Resources",
+      "description": "Select the resources you want to assign to this student.",
+      "success_toast": "Resource assigned successfully.",
+      "error_toast": "Failed to assign resource."
+    },
+    "AssignedResourcesDialog": {
+      "button": "View Assigned Resources",
+      "title": "Assigned Resources",
+      "description": "These are the resources that have been assigned to this student.",
+      "no_resources": "No resources have been assigned to this student yet.",
+      "unassign_success": "Resource unassigned successfully.",
+      "unassign_error": "Failed to unassign resource.",
+      "unassign_button": "Unassign",
+      "trigger": "View Resources",
+      "loading": "Loading...",
+      "resource_id": "Resource ID: {id}",
+      "unassign_title": "Are you sure?",
+      "unassign_description": "This action cannot be undone. This will permanently unassign the resource from the student.",
+      "cancel": "Cancel",
+      "unassigning": "Unassigning...",
+      "files_section": "Files",
+      "urls_section": "URLs",
+      "download": "Download {filename}",
+      "no_files_urls": "No files or URLs for this resource."
+    },
+    "AssignTaskDialog": {
+      "button": "Assign Task",
+      "title": "Assign Task",
+      "description": "Select the task you want to assign to this student.",
+      "success_toast": "Task assigned successfully.",
+      "error_toast": "Failed to assign task."
+    },
+    "AssignedTasksDialog": {
+      "button": "View Assigned Tasks",
+      "title": "Assigned Tasks",
+      "description": "These are the tasks that have been assigned to this student.",
+      "no_tasks": "No tasks have been assigned to this student yet.",
+      "score": "Score: {score}",
+      "completed_button": "Completed",
+      "unassign_button": "Unassign",
+      "unassign_success": "Task {title} unassigned successfully.",
+      "unassign_error": "Failed to unassign task.",
+      "trigger": "View Tasks",
+      "loading": "Loading..."
+    },
+    "AssignResourceForm": {
+      "label": "Select a Resource",
+      "placeholder": "Select a resource",
+      "button": "Assign Resource",
+      "loading": "Loading..."
+    },
+    "AssignTaskForm": {
+      "label": "Select a Task",
+      "placeholder": "Select a task",
+      "button": "Assign Task"
+    }
+  },
+  "StudentRoadmaps": {
+    "title": "Your Roadmaps",
+    "startNextStage": "Start Next Stage",
+    "loadError": "Failed to load roadmaps.",
+    "stageStartedSuccess": "Stage started successfully",
+    "stageCompletedSuccess": "Stage completed successfully",
+    "mentorLabel": "Mentor: {name}",
+    "durationLabel": "Duration: {duration}",
+    "stageLabel": "Stage {order}: {title}",
+    "resourcesLabel": "Resources",
+    "linksLabel": "Links",
+    "filesLabel": "Files",
+    "completeStage": "Complete Stage",
+    "startStage": "Start Stage",
+    "stageLockedMessage": "Complete Previous Stages",
+    "stageCompleted": "Completed"
+  }
+}
