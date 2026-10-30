@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import SendMessageForm from "@/app/(protected)/mentor-dashboard/profile/_components/send-message-form";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -26,7 +27,7 @@ export function ProfileInfo({ user }: { user: User }) {
             <AvatarFallback>
               <UserIcon className="text-muted-foreground size-full p-8" />
             </AvatarFallback>
-            <AvatarImage src={`http://mentorohelp.runasp.net/${user.image}`}  className="w-full" /> 
+            <AvatarImage src={apiAsset(user.image)}  className="w-full" /> 
           </Avatar>
           <Dialog>
             <DialogTrigger asChild>

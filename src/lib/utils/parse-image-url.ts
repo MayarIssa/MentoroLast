@@ -1,13 +1,16 @@
-import { API_URL } from "../constants";
+import { apiAsset } from "../demo/config";
 
 export function parseImageUrl(image: string | undefined | null): string {
   if (!image || typeof image !== "string") {
-    return `${API_URL}/ImagesFiles/default.png`;
+    return apiAsset(null);
   }
 
   // Normalize path separators (handle both \ and /)
   const normalizedPath = image.replace(/\\/g, "/");
-  const fileName = normalizedPath.split("/").pop();
+  if (normalizedPath.includes("/demo/")) {
+    return apiAsset(normalizedPath);
+  }
 
-  return `${API_URL}/ImagesFiles/${fileName}`;
+  const fileName = normalizedPath.split("/").pop();
+  return apiAsset(`/ImagesFiles/${fileName}`);
 }

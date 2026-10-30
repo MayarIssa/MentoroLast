@@ -19,6 +19,9 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { useTranslations } from "next-intl";
 import { Spinner } from "@/components/spinner";
+import { DEMO_ACCOUNTS, DEMO_MODE } from "@/lib/demo/config";
+import { GraduationCap, ShieldCheck, Users } from "lucide-react";
+import { useState } from "react";
 
 const formSchema = z.object({
   email: z.string().email({ message: "Invalid email address." }),
@@ -47,6 +50,9 @@ const LoginForm = ({
   const t = useTranslations("Auth.login");
 
   const router = useRouter();
+  const [demoRole, setDemoRole] = useState<keyof typeof DEMO_ACCOUNTS | null>(
+    null,
+  );
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     const data = await login(values.email, values.password);
@@ -76,6 +82,19 @@ const LoginForm = ({
     const role = data.role.toLowerCase() ?? "student";
     router.replace(`/${role}-dashboard`);
   };
+
+  const loginAsDemo = async (role: keyof typeof DEMO_ACCOUNTS) => {
+    setDemoRole(role);
+    form.setValue("email", DEMO_ACCOUNTS[role].email);
+    form.setValue("password", DEMO_ACCOUNTS[role].password);
+    await onSubmit(DEMO_ACCOUNTS[role]);
+  };
+
+  const demoOptions = [
+    { role: "student" as const, label: t("demoStudent"), Icon: GraduationCap },
+    { role: "mentor" as const, label: t("demoMentor"), Icon: Users },
+    { role: "admin" as const, label: t("demoAdmin"), Icon: ShieldCheck },
+  ];
 
   return (
     <Form {...form}>
@@ -152,6 +171,32 @@ const LoginForm = ({
             {form.formState.isSubmitting && <Spinner />}
             {t("submit")}
           </Button>
+          {DEMO_MODE && (
+            <div className="space-y-3 rounded-xl border border-dashed p-4">
+              <p className="text-muted-foreground text-center text-sm font-medium">
+                {t("demoTitle")}
+              </p>
+              <div className="grid grid-cols-3 gap-2">
+                {demoOptions.map(({ role, label, Icon }) => (
+                  <Button
+                    key={role}
+                    type="button"
+                    variant="outline"
+                    className="flex h-auto flex-col gap-1 py-3"
+                    disabled={form.formState.isSubmitting || demoRole !== null}
+                    onClick={() => void loginAsDemo(role)}
+                  >
+                    {demoRole === role ? (
+                      <Spinner />
+                    ) : (
+                      <Icon className="size-5" />
+                    )}
+                    <span className="text-xs font-semibold">{label}</span>
+                  </Button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </form>
     </Form>

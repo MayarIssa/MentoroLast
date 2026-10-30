@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { Star, MapPin, Users, Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { type MentorData } from "@/lib/types";
 import { motion, useInView } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -39,6 +39,13 @@ export function PopularMentors() {
   const [curMentor, setCurMentor] = useState<MentorData | undefined>(
     mentors?.data[0],
   );
+
+  // Show the first mentor once the list has loaded
+  useEffect(() => {
+    if (!curMentor && mentors?.data[0]) {
+      setCurMentor(mentors.data[0]);
+    }
+  }, [mentors, curMentor]);
 
   return (
     <section className="py-16">

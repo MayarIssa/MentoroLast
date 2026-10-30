@@ -1,4 +1,6 @@
 import { API_URL } from "@/lib/constants";
+import { DEMO_MODE } from "@/lib/demo/config";
+import { createDemoChatConnection } from "@/lib/demo/chat-connection";
 import { tryCatch } from "@/lib/utils/try-catch";
 import type { HubConnection } from "@microsoft/signalr";
 import * as signalR from "@microsoft/signalr";
@@ -20,6 +22,11 @@ export function useChat({
 
   // Establish connection to SignalR hub
   useEffect(() => {
+    if (DEMO_MODE) {
+      setConnection(createDemoChatConnection(token));
+      return;
+    }
+
     const newConnection = new signalR.HubConnectionBuilder()
       .withUrl(`${API_URL}/chatHub`, {
         accessTokenFactory: () => token,

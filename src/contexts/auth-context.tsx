@@ -2,7 +2,7 @@
 
 import { logout } from "@/server/actions/auth";
 import { useUser } from "@/hooks/use-user";
-import { API_URL } from "@/lib/constants";
+import { parseImageUrl } from "@/lib/utils/parse-image-url";
 import type { User } from "@/lib/types";
 import { useRouter } from "next/navigation";
 import { createContext, useEffect, useState } from "react";
@@ -41,17 +41,6 @@ export const AuthContextProvider = ({ children }: React.PropsWithChildren) => {
     });
   }, [userData, isUserPending]);
 
-  const parseImageUrl = (image: string | undefined | null): string => {
-    if (!image || typeof image !== "string") {
-      return `${API_URL}/ImagesFiles/default.png`;
-    }
-
-    // Normalize path separators (handle both \ and /)
-    const normalizedPath = image.replace(/\\/g, "/");
-    const fileName = normalizedPath.split("/").pop();
-
-    return `${API_URL}/ImagesFiles/${fileName}`;
-  };
 
   const clientLogout = async () => {
     setUser(null);

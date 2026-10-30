@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import { API } from "@/lib/api";
 import {
   Card,
@@ -14,7 +15,6 @@ import { Separator } from "@/components/ui/separator";
 import { ExternalLink, FileText, BookOpen, Download } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useQuery } from "@tanstack/react-query";
-import { API_URL } from "@/lib/constants";
 
 export default function ResourcesPage() {
   const t = useTranslations("ResourcesPage");
@@ -146,7 +146,7 @@ export default function ResourcesPage() {
                         asChild
                       >
                         <a
-                          href={`${API_URL}${file}`}
+                          href={apiAsset(file)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center"

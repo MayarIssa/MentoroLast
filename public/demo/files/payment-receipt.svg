@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="450" fill="#eef2ff"/>
+  <rect x="230" y="30" width="340" height="390" rx="22" fill="#ffffff" stroke="#c7d2fe" stroke-width="2"/>
+  <circle cx="400" cy="100" r="34" fill="#22c55e"/>
+  <path d="M384 100 l11 11 l21 -23" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="162" font-size="22" font-weight="700" fill="#111827" text-anchor="middle">Transfer successful</text>
+  <text x="400" y="190" font-size="14" fill="#6b7280" text-anchor="middle">Sample receipt for the Mentoro demo</text>
+  <line x1="260" y1="212" x2="540" y2="212" stroke="#e5e7eb" stroke-width="2" stroke-dasharray="6 6"/>
+  <g font-size="15">
+    <text x="262" y="246" fill="#6b7280">Status</text><text x="538" y="246" fill="#16a34a" font-weight="700" text-anchor="end">Completed</text>
+    <text x="262" y="278" fill="#6b7280">To</text><text x="538" y="278" fill="#111827" text-anchor="end">mentor account</text>
+    <text x="262" y="310" fill="#6b7280">From</text><text x="538" y="310" fill="#111827" text-anchor="end">student account</text>
+    <text x="262" y="342" fill="#6b7280">Reference</text><text x="538" y="342" fill="#111827" text-anchor="end">DEMO-48213</text>
+  </g>
+  <rect x="300" y="368" width="200" height="30" rx="15" fill="#e0e7ff"/>
+  <text x="400" y="388" font-size="13" fill="#4338ca" text-anchor="middle" font-weight="700">Mentoro Demo</text>
+</svg>

@@ -1,3 +1,4 @@
+import { apiAsset } from "@/lib/demo/config";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -13,7 +14,6 @@ import {
   FileText,
   ExternalLink,
 } from "lucide-react";
-import { API_URL } from "@/lib/constants";
 import { DeleteResourceButton } from "./_components/delete-resource-button";
 import { getTranslations, getLocale } from "next-intl/server";
 
@@ -109,7 +109,7 @@ export default async function Resource({ params }: ResourceParams) {
                         className="text-primary hover:text-primary/80 h-auto w-full justify-start p-0 hover:bg-transparent"
                       >
                         <a
-                          href={`${API_URL}${file}`}
+                          href={apiAsset(file)}
                           target="_blank"
                           className="flex items-center gap-3"
                         >

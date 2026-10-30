@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import { API } from "@/lib/api";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -62,7 +63,7 @@ export default function MentorPage() {
           <AvatarImage
             src={
               mentor.image
-                ? `http://mentorohelp.runasp.net/${mentor.image}`
+                ? apiAsset(mentor.image)
                 : undefined
             }
             alt={mentor.name}

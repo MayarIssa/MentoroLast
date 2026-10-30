@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import { API } from "@/lib/api";
 import { MapPin } from "lucide-react";
 import { cn } from "@/lib/utils/index";
@@ -64,7 +65,7 @@ export default function StudentDashboard() {
             <div className="from-primary to-primary/80 group-hover:to-primary relative flex h-24 items-center justify-center bg-gradient-to-r transition-all duration-300">
               <div className="bg-card flex size-16 items-center justify-center overflow-hidden rounded-full shadow-lg transition-all duration-300 group-hover:scale-110">
                 <Image
-                  src={`http://mentorohelp.runasp.net/${mentor.image}`}
+                  src={apiAsset(mentor.image)}
                   alt={mentor.name}
                   width={64}
                   height={64}

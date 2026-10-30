@@ -1,4 +1,5 @@
 import { API_URL } from "@/lib/constants";
+import { apiAsset } from "@/lib/demo/config";
 import type { User } from "@/lib/types";
 import { getUserToken } from "@/server/actions/auth";
 
@@ -33,7 +34,7 @@ export const mentorsQueries = {
       ...data,
       data: data.data.map((mentor) => ({
         ...mentor,
-        image: `${API_URL}${mentor.image}`,
+        image: apiAsset(mentor.image),
       })),
     };
   },
@@ -251,7 +252,7 @@ export const mentorsQueries = {
             ? {
                 ...mentorDetails,
                 image: mentorDetails.image
-                  ? `${API_URL}${mentorDetails.image}`
+                  ? apiAsset(mentorDetails.image)
                   : null,
               }
             : null,

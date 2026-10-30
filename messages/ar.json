@@ -133,7 +133,11 @@
       "password": "كلمة المرور",
       "rememberMe": "تذكرني",
       "forgotPassword": "هل نسيت كلمة المرور؟",
-      "submit": "إرسال"
+      "submit": "إرسال",
+      "demoTitle": "جرّب المنصة بحساب تجريبي",
+      "demoStudent": "طالب",
+      "demoMentor": "مرشد",
+      "demoAdmin": "مسؤول"
     },
     "register": {
       "content_title": "ابدأ رحلتك",

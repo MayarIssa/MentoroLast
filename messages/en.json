@@ -133,7 +133,11 @@
       "password": "Password",
       "rememberMe": "Remember Me",
       "submit": "Submit",
-      "forgotPassword": "Forgot Password?"
+      "forgotPassword": "Forgot Password?",
+      "demoTitle": "Explore with a demo account",
+      "demoStudent": "Student",
+      "demoMentor": "Mentor",
+      "demoAdmin": "Admin"
     },
     "register": {
       "content_title": "Start your journey",

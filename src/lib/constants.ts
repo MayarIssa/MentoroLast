@@ -3,6 +3,8 @@ import jayaImg from "@/assets/mentors/jaya-wills.png";
 import johnImg from "@/assets/mentors/john-doe.png";
 import { CodeXml } from "lucide-react";
 
+import "./demo/install";
+
 export const API_URL = "http://mentorohelp.runasp.net";
 
 export const ROLES = [

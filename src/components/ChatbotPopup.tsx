@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
+import "@/lib/demo/install";
 
 // Speech Recognition types
 interface SpeechRecognitionEvent {

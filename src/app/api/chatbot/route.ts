@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { env } from "@/env";
+import "@/lib/demo/install";
 
 export async function POST(request: Request) {
   const { messages } = (await request.json()) as {

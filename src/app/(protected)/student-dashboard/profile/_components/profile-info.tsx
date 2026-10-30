@@ -1,9 +1,9 @@
+import { apiAsset } from "@/lib/demo/config";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { User as UserIcon, Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { User } from "@/lib/types";
-import { API_URL } from "@/lib/constants";
 
 export function ProfileInfo({ user }: { user: User }) {
   const t = useTranslations("Profile.ProfileInfo");
@@ -17,7 +17,7 @@ export function ProfileInfo({ user }: { user: User }) {
               <UserIcon className="size-full p-8" />
             </AvatarFallback>
             <AvatarImage
-              src={`${API_URL}${user.image}`}
+              src={apiAsset(user.image)}
               className="w-full object-cover"
             />
           </Avatar>

@@ -1,3 +1,4 @@
+import { apiAsset } from "@/lib/demo/config";
 import { API } from "@/lib/api";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
@@ -60,7 +61,7 @@ export default async function MentorPage({
               <CardHeader className="text-center">
                 <div className="mx-auto mb-4 size-32 overflow-hidden rounded-full">
                   <Image
-                    src={`http://mentorohelp.runasp.net/${mentor.image}`}
+                    src={apiAsset(mentor.image)}
                     width={128}
                     height={128}
                     alt={mentor.name}

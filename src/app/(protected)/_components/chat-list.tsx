@@ -96,7 +96,7 @@ export function ChatList({
                         "text-sm leading-relaxed",
                         isCurrentUser
                           ? "bg-primary text-primary-foreground"
-                          : "text-foreground bg-zinc-900",
+                          : "bg-muted text-foreground",
                       )}
                     >
                       {message.message}

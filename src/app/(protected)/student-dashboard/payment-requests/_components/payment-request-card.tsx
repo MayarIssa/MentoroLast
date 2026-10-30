@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import {
   Card,
   CardContent,
@@ -40,7 +41,6 @@ import { useTranslations } from "next-intl";
 import { FaPaypal } from "react-icons/fa";
 import { paypalMutations } from "@/lib/api/mutations/paypal";
 import { Spinner } from "@/components/spinner";
-import { API_URL } from "@/lib/constants";
 
 type MentorDetails = {
   name: string;
@@ -184,7 +184,7 @@ export function PaymentRequestCard({ request }: PaymentRequestCardProps) {
           <div className="flex items-center gap-3">
             <Avatar className="border-primary/20 h-12 w-12 border-2">
               <AvatarImage
-                src={`${API_URL}${request.mentorDetails.image}`}
+                src={apiAsset(request.mentorDetails.image)}
                 alt={request.mentorName}
               />
               <AvatarFallback className="bg-primary/10">

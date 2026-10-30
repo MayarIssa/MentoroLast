@@ -1,5 +1,6 @@
 "use client";
 
+import { apiAsset } from "@/lib/demo/config";
 import { roadmapMutations } from "@/lib/api/mutations/roadmap";
 import { roadmapQueries } from "@/lib/api/queries/roadmap";
 import { Button } from "@/components/ui/button";
@@ -28,7 +29,6 @@ import {
   Clock,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { API_URL } from "@/lib/constants";
 
 // Type for stage from the API response
 type Stage = {
@@ -343,7 +343,7 @@ export default function Roadmaps() {
                                               className="flex items-center gap-2"
                                             >
                                               <a
-                                                href={`${API_URL}${filePath}`}
+                                                href={apiAsset(filePath)}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 download
